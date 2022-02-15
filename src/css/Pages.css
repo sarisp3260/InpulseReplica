@@ -1,0 +1,50 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+/* Card Style */
+.pages
+{
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: -1;
+}
+.contPages
+{
+    margin-top: 10vh;
+    text-align: center;
+}
+.cardgrid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.container-Card
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 2rem 0;
+}
+.cardStyle{
+    width: 60%;
+    padding: 1rem;
+    background-color: rgba(209, 209, 209, 0.445);
+    border-radius: 5px;
+}
+.cardStyle img{
+    width: 100%;
+}
+.cardStyle p{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 600;
+}
